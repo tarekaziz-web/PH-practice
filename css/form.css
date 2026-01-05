@@ -13,3 +13,21 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+.container {
+   
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+}
+
+.card-01, .card-02 , .card-03 , .card-04 {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
